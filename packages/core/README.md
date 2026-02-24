@@ -118,6 +118,137 @@ function Example() {
 }
 ```
 
+#### Badge
+
+```tsx
+import { Badge } from '@aditya-karedla/core';
+
+function Example() {
+  return (
+    <>
+      <Badge>Default</Badge>
+      <Badge variant="success">Success</Badge>
+      <Badge variant="warning">Warning</Badge>
+      <Badge variant="destructive">Error</Badge>
+    </>
+  );
+}
+```
+
+#### Checkbox & Switch
+
+```tsx
+import { Checkbox, Switch, Label } from '@aditya-karedla/core';
+
+function Example() {
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center space-x-2">
+        <Checkbox id="terms" />
+        <Label htmlFor="terms">Accept terms</Label>
+      </div>
+      
+      <div className="flex items-center space-x-2">
+        <Switch id="notifications" />
+        <Label htmlFor="notifications">Enable notifications</Label>
+      </div>
+    </div>
+  );
+}
+```
+
+#### Alert
+
+```tsx
+import { Alert, AlertTitle, AlertDescription } from '@aditya-karedla/core';
+
+function Example() {
+  return (
+    <Alert variant="info">
+      <AlertTitle>Information</AlertTitle>
+      <AlertDescription>
+        Your changes have been saved.
+      </AlertDescription>
+    </Alert>
+  );
+}
+```
+
+#### Avatar
+
+```tsx
+import { Avatar, AvatarImage, AvatarFallback } from '@aditya-karedla/core';
+
+function Example() {
+  return (
+    <Avatar>
+      <AvatarImage src="https://github.com/username.png" alt="User" />
+      <AvatarFallback>UN</AvatarFallback>
+    </Avatar>
+  );
+}
+```
+
+#### Dialog
+
+```tsx
+import { 
+  Dialog, 
+  DialogTrigger, 
+  DialogContent, 
+  DialogHeader, 
+  DialogTitle,
+  DialogDescription,
+  Button 
+} from '@aditya-karedla/core';
+
+function Example() {
+  return (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button>Open Dialog</Button>
+      </DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Dialog Title</DialogTitle>
+          <DialogDescription>
+            This is a dialog description.
+          </DialogDescription>
+        </DialogHeader>
+        <p>Dialog content goes here.</p>
+      </DialogContent>
+    </Dialog>
+  );
+}
+```
+
+#### Tooltip
+
+```tsx
+import { 
+  Tooltip, 
+  TooltipTrigger, 
+  TooltipContent, 
+  TooltipProvider,
+  Button 
+} from '@aditya-karedla/core';
+
+function Example() {
+  return (
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Button variant="outline">Hover me</Button>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>Tooltip content</p>
+        </TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
+  );
+}
+```
+
 ### Theme
 
 Toggle between light and dark modes:
@@ -148,10 +279,26 @@ const className = cn('base-class', condition && 'conditional-class');
 
 ## Available Components
 
-- **Button** - Versatile button component with multiple variants
+### Form Components
+- **Button** - Versatile button component with multiple variants and sizes
 - **Input** - Text input field with validation support
-- **Label** - Accessible label component
+- **Textarea** - Multi-line text input field
+- **Label** - Accessible label component for form fields
+- **Checkbox** - Checkbox input with custom styling
+- **Switch** - Toggle switch for boolean values
+
+### Layout & Display
 - **Card** - Container component with header, content, and footer sections
+- **Separator** - Horizontal or vertical divider line
+- **Avatar** - User profile image with fallback support
+
+### Feedback & Messaging
+- **Alert** - Contextual alerts with different variants (info, success, warning, error)
+- **Badge** - Small status indicators and labels
+- **Tooltip** - Hover information tooltips
+
+### Overlays
+- **Dialog** - Modal dialog/popup component
 - **ThemeProvider** - Context provider for theme management
 
 ## TypeScript
