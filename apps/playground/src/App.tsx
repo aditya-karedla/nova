@@ -11,7 +11,7 @@ import {
   CardFooter,
   Input,
   Label,
-} from "@nova/core";
+} from "@aditya-karedla/core";
 
 function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();

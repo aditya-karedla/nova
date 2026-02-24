@@ -23,13 +23,13 @@ importers:
 
   apps/docs:
     dependencies:
-      '@nova/core':
+      '@aditya-karedla/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@nova/hooks':
+      '@aditya-karedla/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@nova/tokens':
+      '@aditya-karedla/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
       react:
@@ -90,13 +90,13 @@ importers:
 
   apps/playground:
     dependencies:
-      '@nova/core':
+      '@aditya-karedla/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@nova/hooks':
+      '@aditya-karedla/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@nova/tokens':
+      '@aditya-karedla/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
       react:
@@ -133,10 +133,10 @@ importers:
 
   packages/core:
     dependencies:
-      '@nova/hooks':
+      '@aditya-karedla/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@nova/tokens':
+      '@aditya-karedla/tokens':
         specifier: workspace:*
         version: link:../tokens
       '@radix-ui/react-slot':

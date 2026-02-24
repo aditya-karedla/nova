@@ -7,9 +7,9 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "@nova/core": ["../../packages/core/src"],
-      "@nova/tokens": ["../../packages/tokens/src"],
-      "@nova/hooks": ["../../packages/hooks/src"]
+      "@aditya-karedla/core": ["../../packages/core/src"],
+      "@aditya-karedla/tokens": ["../../packages/tokens/src"],
+      "@aditya-karedla/hooks": ["../../packages/hooks/src"]
     }
   },
   "include": ["src"],

@@ -1,5 +1,5 @@
 import type { Preview } from "@storybook/react";
-import { ThemeProvider } from "@nova/core";
+import { ThemeProvider } from "@aditya-karedla/core";
 import "../src/styles.css";
 
 const preview: Preview = {

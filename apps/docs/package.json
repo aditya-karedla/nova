@@ -8,9 +8,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@nova/core": "workspace:*",
-    "@nova/hooks": "workspace:*",
-    "@nova/tokens": "workspace:*",
+    "@aditya-karedla/core": "workspace:*",
+    "@aditya-karedla/hooks": "workspace:*",
+    "@aditya-karedla/tokens": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

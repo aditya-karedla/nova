@@ -20,9 +20,9 @@ const config: StorybookConfig = {
     if (config.resolve) {
       config.resolve.alias = {
         ...config.resolve.alias,
-        "@nova/core": resolve(__dirname, "../../../packages/core/src"),
-        "@nova/tokens": resolve(__dirname, "../../../packages/tokens/src"),
-        "@nova/hooks": resolve(__dirname, "../../../packages/hooks/src"),
+        "@aditya-karedla/core": resolve(__dirname, "../../../packages/core/src"),
+        "@aditya-karedla/tokens": resolve(__dirname, "../../../packages/tokens/src"),
+        "@aditya-karedla/hooks": resolve(__dirname, "../../../packages/hooks/src"),
       };
     }
     return config;

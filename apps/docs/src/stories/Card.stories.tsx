@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Button } from "@nova/core";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter, Button } from "@aditya-karedla/core";
 
 const meta = {
   title: "Components/Card",

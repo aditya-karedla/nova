@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { colors, spacing, fontSize, fontWeight, borderRadius, boxShadow } from "@nova/tokens";
+import { colors, spacing, fontSize, fontWeight, borderRadius, boxShadow } from "@aditya-karedla/tokens";
 
 const config: Config = {
   content: ["./src/**/*.{ts,tsx}"],
