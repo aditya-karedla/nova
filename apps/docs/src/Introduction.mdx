@@ -1,0 +1,89 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Introduction" />
+
+# Nova UI 🌟
+
+Welcome to **Nova** - an enterprise-grade React component library designed for professional applications.
+
+## Features
+
+- **🎨 Professional Design System** - Carefully crafted color palette optimized for enterprise applications
+- **♿ Accessibility First** - WCAG 2.1 AA compliant components with comprehensive ARIA support
+- **🎭 Theming** - Built-in light/dark mode with full customization support
+- **📦 Tree-shakeable** - Import only what you need for optimal bundle sizes
+- **🔧 TypeScript** - Fully typed API with excellent IDE support
+- **⚡ Performance** - Built on Radix UI primitives, optimized for production
+
+## Getting Started
+
+Install the core package:
+
+```bash
+npm install @nova/core
+# or
+pnpm add @nova/core
+# or
+yarn add @nova/core
+```
+
+## Quick Example
+
+```tsx
+import { ThemeProvider, Button, Card } from "@nova/core";
+import "@nova/core/styles.css";
+
+function App() {
+  return (
+    <ThemeProvider>
+      <Card>
+        <Card.Header>
+          <Card.Title>Welcome to Nova</Card.Title>
+        </Card.Header>
+        <Card.Content>
+          <p>Start building amazing applications!</p>
+        </Card.Content>
+        <Card.Footer>
+          <Button>Get Started</Button>
+        </Card.Footer>
+      </Card>
+    </ThemeProvider>
+  );
+}
+```
+
+## Philosophy
+
+Nova is built on three core principles:
+
+1. **Accessibility is non-negotiable** - Every component meets WCAG 2.1 AA standards
+2. **Developer experience matters** - TypeScript, great documentation, and intuitive APIs
+3. **Flexibility without complexity** - Sensible defaults with powerful customization options
+
+## Tech Stack
+
+- **React 18** - Modern React with hooks and concurrent features
+- **TypeScript** - Full type safety and IntelliSense support
+- **Tailwind CSS** - Utility-first styling for rapid customization
+- **Radix UI** - Accessible, unstyled component primitives
+- **Vite** - Lightning-fast build tooling
+
+## Browse Components
+
+Use the sidebar to explore all available components. Each component page includes:
+
+- Interactive examples with controls
+- Props documentation
+- Accessibility notes
+- Usage guidelines
+- Code snippets
+
+## Get Help
+
+- **Documentation**: Browse components in the sidebar
+- **GitHub**: [github.com/your-org/nova](https://github.com)
+- **Issues**: Report bugs or request features
+
+---
+
+Built with ❤️ for the React community
