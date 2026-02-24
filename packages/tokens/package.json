@@ -29,6 +29,18 @@
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adityakaredla/nova"
+  },
+  "keywords": [
+    "design-tokens",
+    "colors",
+    "design-system",
+    "typescript",
+    "tailwind"
+  ],
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   }
