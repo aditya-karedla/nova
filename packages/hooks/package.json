@@ -1,5 +1,5 @@
 {
-  "name": "@nova/hooks",
+  "name": "@aditya-karedla/hooks",
   "version": "0.1.0-alpha.1",
   "description": "React hooks for Nova UI component library",
   "main": "./dist/index.js",

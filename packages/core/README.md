@@ -1,4 +1,4 @@
-# @nova/core
+# @aditya-karedla/core
 
 > Core UI components for the Nova design system
 
@@ -7,11 +7,11 @@ A collection of accessible, customizable React components built on Radix UI prim
 ## Installation
 
 ```bash
-npm install @nova/core
+npm install @aditya-karedla/core
 # or
-pnpm add @nova/core
+pnpm add @aditya-karedla/core
 # or
-yarn add @nova/core
+yarn add @aditya-karedla/core
 ```
 
 ### Peer Dependencies
@@ -27,13 +27,13 @@ npm install react react-dom
 Import the CSS file in your application entry point:
 
 ```tsx
-import '@nova/core/styles.css';
+import '@aditya-karedla/core/styles.css';
 ```
 
 Wrap your app with the ThemeProvider:
 
 ```tsx
-import { ThemeProvider } from '@nova/core';
+import { ThemeProvider } from '@aditya-karedla/core';
 
 function App() {
   return (
@@ -49,7 +49,7 @@ function App() {
 #### Button
 
 ```tsx
-import { Button } from '@nova/core';
+import { Button } from '@aditya-karedla/core';
 
 function Example() {
   return (
@@ -72,7 +72,7 @@ function Example() {
 #### Input
 
 ```tsx
-import { Input, Label } from '@nova/core';
+import { Input, Label } from '@aditya-karedla/core';
 
 function Example() {
   return (
@@ -98,7 +98,7 @@ import {
   CardDescription, 
   CardContent, 
   CardFooter 
-} from '@nova/core';
+} from '@aditya-karedla/core';
 
 function Example() {
   return (
@@ -123,7 +123,7 @@ function Example() {
 Toggle between light and dark modes:
 
 ```tsx
-import { useTheme } from '@nova/core';
+import { useTheme } from '@aditya-karedla/core';
 
 function ThemeToggle() {
   const { theme, setTheme } = useTheme();
@@ -141,7 +141,7 @@ function ThemeToggle() {
 The `cn` utility for merging class names:
 
 ```tsx
-import { cn } from '@nova/core';
+import { cn } from '@aditya-karedla/core';
 
 const className = cn('base-class', condition && 'conditional-class');
 ```
@@ -159,7 +159,7 @@ const className = cn('base-class', condition && 'conditional-class');
 All components are fully typed with TypeScript. Import types as needed:
 
 ```tsx
-import type { ButtonProps } from '@nova/core';
+import type { ButtonProps } from '@aditya-karedla/core';
 ```
 
 ## Accessibility
@@ -168,8 +168,8 @@ All components follow WAI-ARIA guidelines and are keyboard navigable with proper
 
 ## Related Packages
 
-- [@nova/tokens](../tokens) - Design tokens and theme configuration
-- [@nova/hooks](../hooks) - Reusable React hooks
+- [@aditya-karedla/tokens](../tokens) - Design tokens and theme configuration
+- [@aditya-karedla/hooks](../hooks) - Reusable React hooks
 
 ## License
 

@@ -1,4 +1,4 @@
-# @nova/tokens
+# @aditya-karedla/tokens
 
 > Design tokens for the Nova design system
 
@@ -7,11 +7,11 @@ A comprehensive set of design tokens including colors, spacing, typography, and 
 ## Installation
 
 ```bash
-npm install @nova/tokens
+npm install @aditya-karedla/tokens
 # or
-pnpm add @nova/tokens
+pnpm add @aditya-karedla/tokens
 # or
-yarn add @nova/tokens
+yarn add @aditya-karedla/tokens
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ yarn add @nova/tokens
 Access the complete color palette optimized for enterprise applications:
 
 ```tsx
-import { colors } from '@nova/tokens';
+import { colors } from '@aditya-karedla/tokens';
 
 // Primary colors
 const primaryBlue = colors.primary[500]; // #3b82f6
@@ -56,7 +56,7 @@ Gray palette with subtle blue tint (50-950 shades)
 Access spacing, typography, and other design tokens:
 
 ```tsx
-import { tokens } from '@nova/tokens';
+import { tokens } from '@aditya-karedla/tokens';
 
 // Spacing scale
 const spacing = tokens.spacing;
@@ -78,7 +78,7 @@ const shadow = tokens.shadows;
 ### Importing Specific Color Sets
 
 ```tsx
-import { colors } from '@nova/tokens/colors';
+import { colors } from '@aditya-karedla/tokens/colors';
 
 const { primary, success, error, warning, info, gray } = colors;
 ```
@@ -121,7 +121,7 @@ All colors in the Nova design system are:
 All tokens are fully typed with TypeScript:
 
 ```tsx
-import type { Colors, Tokens } from '@nova/tokens';
+import type { Colors, Tokens } from '@aditya-karedla/tokens';
 ```
 
 ## Usage with Tailwind CSS
@@ -130,7 +130,7 @@ These tokens are designed to integrate seamlessly with Tailwind CSS. Reference t
 
 ```js
 // tailwind.config.js
-import { colors } from '@nova/tokens';
+import { colors } from '@aditya-karedla/tokens';
 
 export default {
   theme: {
@@ -147,8 +147,8 @@ export default {
 
 ## Related Packages
 
-- [@nova/core](../core) - Core UI components that use these tokens
-- [@nova/hooks](../hooks) - Reusable React hooks
+- [@aditya-karedla/core](../core) - Core UI components that use these tokens
+- [@aditya-karedla/hooks](../hooks) - Reusable React hooks
 
 ## License
 

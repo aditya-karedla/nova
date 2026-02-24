@@ -1,4 +1,4 @@
-# @nova/hooks
+# @aditya-karedla/hooks
 
 > Reusable React hooks for the Nova design system
 
@@ -7,11 +7,11 @@ A collection of useful React hooks for common UI patterns and behaviors.
 ## Installation
 
 ```bash
-npm install @nova/hooks
+npm install @aditya-karedla/hooks
 # or
-pnpm add @nova/hooks
+pnpm add @aditya-karedla/hooks
 # or
-yarn add @nova/hooks
+yarn add @aditya-karedla/hooks
 ```
 
 ### Peer Dependencies
@@ -27,7 +27,7 @@ npm install react react-dom
 Responsive design hook that tracks media query matches.
 
 ```tsx
-import { useMediaQuery } from '@nova/hooks';
+import { useMediaQuery } from '@aditya-karedla/hooks';
 
 function ResponsiveComponent() {
   const isMobile = useMediaQuery('(max-width: 768px)');
@@ -53,7 +53,7 @@ function ResponsiveComponent() {
 Persist state in localStorage with automatic synchronization.
 
 ```tsx
-import { useLocalStorage } from '@nova/hooks';
+import { useLocalStorage } from '@aditya-karedla/hooks';
 
 function UserPreferences() {
   const [preferences, setPreferences] = useLocalStorage('userPrefs', {
@@ -83,7 +83,7 @@ function UserPreferences() {
 Debounce a value to limit update frequency.
 
 ```tsx
-import { useDebounce } from '@nova/hooks';
+import { useDebounce } from '@aditya-karedla/hooks';
 import { useState } from 'react';
 
 function SearchInput() {
@@ -119,7 +119,7 @@ function SearchInput() {
 Detect clicks outside of a specified element.
 
 ```tsx
-import { useClickOutside } from '@nova/hooks';
+import { useClickOutside } from '@aditya-karedla/hooks';
 import { useRef, useState } from 'react';
 
 function Dropdown() {
@@ -159,8 +159,8 @@ These hooks work in all modern browsers that support React 18+.
 
 ## Related Packages
 
-- [@nova/core](../core) - Core UI components
-- [@nova/tokens](../tokens) - Design tokens
+- [@aditya-karedla/core](../core) - Core UI components
+- [@aditya-karedla/tokens](../tokens) - Design tokens
 
 ## License
 

@@ -16,28 +16,27 @@ Nova is a comprehensive, accessible, and customizable React component library bu
 
 ## Packages
 
-- `@nova/core` - Core UI components
-- `@nova/tokens` - Design tokens (colors, spacing, typography)
-- `@nova/hooks` - Reusable React hooks
-- `@nova/icons` - Icon library
+- `@aditya-karedla/core` - Core UI components
+- `@aditya-karedla/tokens` - Design tokens (colors, spacing, typography)
+- `@aditya-karedla/hooks` - Reusable React hooks
 
 ## Getting Started
 
 ```bash
 # Install core package
-npm install @nova/core
+npm install @aditya-karedla/core
 
 # or with pnpm
-pnpm add @nova/core
+pnpm add @aditya-karedla/core
 
 # or with yarn
-yarn add @nova/core
+yarn add @aditya-karedla/core
 ```
 
 ## Quick Example
 
 ```tsx
-import { Button, Card, Input } from "@nova/core";
+import { Button, Card, Input } from "@aditya-karedla/core";
 
 function App() {
   return (

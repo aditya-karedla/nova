@@ -1,5 +1,5 @@
 {
-  "name": "@nova/tokens",
+  "name": "@aditya-karedla/tokens",
   "version": "0.1.0-alpha.1",
   "description": "Design tokens for Nova UI component library",
   "main": "./dist/index.js",
