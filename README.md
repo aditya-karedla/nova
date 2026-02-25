@@ -1,39 +1,45 @@
-# Nova 🌟
+# Nova
 
-> Enterprise-grade React component library for professional applications
+**Enterprise-Grade React Component Library**
 
-Nova is a comprehensive, accessible, and customizable React component library built on top of Radix UI primitives and styled with Tailwind CSS. Designed for professional and enterprise-grade applications with a focus on developer experience, accessibility, and visual excellence.
+Nova is a comprehensive, accessible, and highly customizable React component library engineered for professional and enterprise-grade applications. Built upon Radix UI primitives and styled with Tailwind CSS, Nova delivers a robust foundation for modern web applications with an emphasis on developer experience, accessibility standards, and visual excellence.
 
-## Features
+## Key Features
 
-- 🎨 **Professional Design System** - Carefully crafted color palette optimized for enterprise applications
-- ♿ **Accessibility First** - WCAG 2.1 AA compliant components with comprehensive ARIA support
-- 🎭 **Theming** - Built-in light/dark mode with full customization support
-- 📦 **Tree-shakeable** - Import only what you need for optimal bundle sizes
-- 🔧 **TypeScript** - Fully typed API with excellent IDE support
-- 📚 **Comprehensive Documentation** - Interactive Storybook with live examples
-- ⚡ **Performance** - Optimized for production with minimal runtime overhead
+- **Professional Design System** - Meticulously crafted color palette and design tokens optimized for enterprise applications
+- **Accessibility First** - WCAG 2.1 AA compliant components with comprehensive ARIA support and keyboard navigation
+- **Advanced Theming** - Built-in light and dark mode support with extensive customization capabilities
+- **Optimized Bundle Size** - Tree-shakeable architecture allowing selective imports for minimal production footprint
+- **TypeScript Native** - Fully typed API with comprehensive IntelliSense and type safety
+- **Extensive Documentation** - Interactive Storybook documentation with live examples and implementation guides
+- **Production-Ready Performance** - Optimized components with minimal runtime overhead and efficient rendering
 
-## Packages
+## Package Architecture
 
-- `@aditya-karedla/core` - Core UI components
-- `@aditya-karedla/tokens` - Design tokens (colors, spacing, typography)
-- `@aditya-karedla/hooks` - Reusable React hooks
+The Nova library is organized as a monorepo containing the following packages:
 
-## Getting Started
+- **`@aditya-karedla/core`** - Core UI component library with production-ready components
+- **`@aditya-karedla/tokens`** - Design system tokens including colors, spacing, and typography scales
+- **`@aditya-karedla/hooks`** - Collection of reusable React hooks for common functionality
+
+## Installation
+
+Install the core package using your preferred package manager:
 
 ```bash
-# Install core package
+# npm
 npm install @aditya-karedla/core
 
-# or with pnpm
+# pnpm
 pnpm add @aditya-karedla/core
 
-# or with yarn
+# yarn
 yarn add @aditya-karedla/core
 ```
 
-## Quick Example
+## Usage Example
+
+The following demonstrates basic implementation of Nova components:
 
 ```tsx
 import { Button, Card, Input } from "@aditya-karedla/core";
@@ -55,35 +61,39 @@ function App() {
 }
 ```
 
-## Development
+## Development Environment
 
-This monorepo uses Turborepo, pnpm, and TypeScript.
+This project utilizes a monorepo architecture powered by Turborepo, pnpm workspace management, and TypeScript.
+
+### Development Commands
 
 ```bash
-# Install dependencies
+# Install project dependencies
 pnpm install
 
-# Run development mode
+# Start development environment
 pnpm dev
 
-# Build all packages
+# Build all packages for production
 pnpm build
 
-# Run tests
+# Execute test suite
 pnpm test
 
-# Start Storybook
+# Launch Storybook documentation server
 pnpm storybook
 ```
 
 ## Documentation
 
-Visit our [Storybook documentation](https://nova-ui-docs.vercel.app) for interactive component examples and guides.
+Comprehensive documentation with interactive component examples is available in our [Storybook documentation](https://nova-ui-docs.vercel.app).
 
 ## License
 
-MIT © Nova UI
+This project is licensed under the MIT License. See LICENSE file for details.
 
-## Status
+Copyright © 2026 Nova UI
 
-🚧 **Alpha** - Under active development
+## Project Status
+
+**Alpha Release** - This library is currently under active development. APIs and components may be subject to change. Production use is not recommended at this time.
