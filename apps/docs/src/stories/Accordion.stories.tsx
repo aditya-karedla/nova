@@ -20,7 +20,7 @@ type Story = StoryObj;
 
 export const Default: Story = {
   render: () => (
-    <Accordion type="single" collapsible className="w-full max-w-md">
+    <Accordion type="single" collapsible className="w-[450px]">
       <AccordionItem value="item-1">
         <AccordionTrigger>Is it accessible?</AccordionTrigger>
         <AccordionContent>
@@ -48,7 +48,7 @@ export const Default: Story = {
 
 export const Multiple: Story = {
   render: () => (
-    <Accordion type="multiple" className="w-full max-w-md">
+    <Accordion type="multiple" className="w-[450px]">
       <AccordionItem value="item-1">
         <AccordionTrigger>Getting Started</AccordionTrigger>
         <AccordionContent>
@@ -82,9 +82,9 @@ export const Multiple: Story = {
 
 export const FAQ: Story = {
   render: () => (
-    <div className="w-full max-w-2xl space-y-4">
+    <div className="w-[700px] space-y-4">
       <h2 className="text-2xl font-bold">Frequently Asked Questions</h2>
-      <Accordion type="single" collapsible>
+      <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="shipping">
           <AccordionTrigger>What are the shipping options?</AccordionTrigger>
           <AccordionContent>
@@ -134,7 +134,7 @@ export const DefaultOpen: Story = {
       type="single"
       collapsible
       defaultValue="item-2"
-      className="w-full max-w-md"
+      className="w-[450px]"
     >
       <AccordionItem value="item-1">
         <AccordionTrigger>Section 1</AccordionTrigger>
